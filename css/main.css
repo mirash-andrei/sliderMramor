@@ -2,12 +2,14 @@
 .slider_detail{
 	display: flex;
     justify-content: center;
+
 }
 .slider-box{
   position:relative;
   width:320px;
   height:210px;
   overflow:hidden;
+
 }
 .slider{
   position:relative;
@@ -41,4 +43,30 @@
 .slider-box .next{
   right:10px;
   background:url(../img/slider_controls.png) no-repeat -29px 0;
+}
+/*slider_small*/
+.slider-box_small{
+  position:relative;
+  width:320px;
+  height:630px;
+  overflow:hidden;
+}
+.slider_small{
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  width:320px;
+  height:10000px;
+}
+.slider_small .img_product_small{
+  float:left;
+  height: 210px;
+  width:320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider_small .img_product_small img{
+  max-height: 210px;
+  max-width: 320px;
 }
